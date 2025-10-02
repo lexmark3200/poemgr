@@ -6,6 +6,9 @@
 
 board=$(board_name)
 case "$board" in
+cudy,c200p)
+    cp /usr/lib/poemgr/config/c200p.config /etc/config/poemgr
+    ;;
 plasmacloud,psx8|\
 plasmacloud,psx10)
     cp /usr/lib/poemgr/config/psx10.config /etc/config/poemgr

@@ -9,11 +9,14 @@
 
 #include "poemgr.h"
 
+extern struct poemgr_profile poemgr_profile_c200p;
 extern struct poemgr_profile poemgr_profile_psx10;
 extern struct poemgr_profile poemgr_profile_psx28;
 extern struct poemgr_profile poemgr_profile_uswflex;
 
+
 static struct poemgr_profile *poemgr_profiles[] = {
+	&poemgr_profile_c200p,
 	&poemgr_profile_psx10,
 	&poemgr_profile_psx28,
 	&poemgr_profile_uswflex,
